@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "outDir": "dist",
+    "outDir": "lib",
     "moduleResolution": "node",
     "target": "es2015",
     "module": "commonjs",

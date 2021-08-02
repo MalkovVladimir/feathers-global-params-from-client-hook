@@ -1,6 +1,6 @@
-# feathers-global-params-from-client-hook
 This is "soft" aletrnative of [paramsFromClient](https://hooks-common.feathersjs.com/hooks.html#paramsfromclient) hook.
 When you use `paramsFromClient` in `app.hook.ts`, it fully removes `$client` property (which contains all params), so we loose possibility to use params in service's hooks.
+`globalParamsFromClient` solve this problem.
 
 ## paramsFromClient problem:
 ### Client code:
@@ -47,7 +47,7 @@ export default {
   }
 }
 ```
-No effect, we will never get schema param, if use paramsFromClient in app.hook
+No effect, we will never get schema param, if use paramsFromClient in app.hook.ts.
 
 ## globalParamsFromClient usage
 ### app.hooks.ts:
@@ -76,4 +76,4 @@ export default {
   }
 }
 ```
-So here you will get schema param
+So here you will get schema param!

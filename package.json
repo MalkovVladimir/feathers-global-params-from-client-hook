@@ -1,6 +1,6 @@
 {
   "name": "feathers-global-params-from-client-hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Alternative of paramsFromClient hook for app.hook.ts",
   "main": "index.js",
   "scripts": {
