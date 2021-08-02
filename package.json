@@ -2,7 +2,7 @@
   "name": "feathers-global-params-from-client-hook",
   "version": "1.0.4",
   "description": "Alternative of paramsFromClient hook for app.hook.ts",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "compile": "shx rm -rf lib/ && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
