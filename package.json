@@ -7,7 +7,7 @@
     "compile": "shx rm -rf lib/ && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["feathers", "feathersjs", "feathers-hooks-common", "paramsFromClient", "hook"],
   "author": "MalkovVladimir",
   "license": "ISC",
   "dependencies": {
