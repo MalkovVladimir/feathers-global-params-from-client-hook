@@ -1,11 +1,16 @@
 {
   "name": "feathers-global-params-from-client-hook",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Alternative of paramsFromClient hook for app.hook.ts",
   "main": "./lib/index.js",
   "scripts": {
     "compile": "shx rm -rf lib/ && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/MalkovVladimir/feathers-global-params-from-client-hook#feathers-global-params-from-client-hook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MalkovVladimir/feathers-global-params-from-client-hook"
   },
   "keywords": ["feathers", "feathersjs", "feathers-hooks-common", "paramsFromClient", "hook"],
   "author": "MalkovVladimir",
